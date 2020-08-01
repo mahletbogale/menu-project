@@ -7,8 +7,11 @@ class Home extends Component {
         return (
 
          
-            <div>
-              <h1>wellcome to mahi's menu</h1>  
+            <div className="home">
+              <h1>Wellcome to Mahi's Seafood Recipe
+                  
+                  </h1>  
+              
             </div>
         );
     }

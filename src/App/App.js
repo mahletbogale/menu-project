@@ -20,6 +20,7 @@ constructor(){
     .then((res)=>res.json())
     .then(json=>{
        this.setState({recipes:json.meals})
+       
     }); }
 
 
@@ -27,23 +28,26 @@ constructor(){
     
       
   render() {
+    
     return (
-      <div>
+      <div className='head'>
         <header>
         <Link to='/'>
        Home
        </Link>
        
-       <Link to='/MenuList/MenuList'>Menu List</Link>
+       <Link to='/menulist/menulist'>Menu List</Link>
        </header>
        <main>
          <Route path='/' exact render={()=><Home/> }/>
-         <Route path='/MenuList/MenuList' exact render={()=><MenuList recipes={this.state.recipes} />} />
+         <Route path='/menulist/menulist' exact render={()=><MenuList recipes={this.state.recipes} />} />
+         <Route path='/menudetails/:idMeal' exact render={(routerProps)=><MenuDetails recipes={this.state.recipes} match={routerProps.match}/>}/>
+         
 
-         <Route path='/MenuDetails/MenuDetails'  exact render={routerProps => <MenuDetails recipes={this.state.recipes} match={routerProps.match}/>} />
-     
+        
+        
       </main>
-     
+
       </div>
     );
   }

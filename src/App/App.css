@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+
+.head header{
+    background-color: black;
+    height:150px;
+    align-content: center;
+    color: orangered;
+    text-align: center;
+    padding-top: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 40px;
+    
+   
+}
+header a{
+    text-align: center;
+   text-decoration: none;
+    color: orangered;
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    .head .home{
+        /* background-color: black; */
+        background:radial-gradient( teal, orangered);
+        padding-top: 10px;
+       
+      color: black;
+       text-align: center;
+       
+       font-size: 20px;
+    padding-bottom: 300px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    } 
+    .menulist img{
+        width:250px
+     
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+      }
+  
+     
+      .menulist  .boxbackground{
+          display: grid;
+       
+          grid-template-columns: repeat(2, 1fr);
+         min-height: 100vh;
+         
+          
+          padding-top: 40px;
+          margin-top: 0px;
+          margin: 0 auto;
+    
+          background:radial-gradient( teal, orangered);
 
-.App-link {
-  color: #61dafb;
-}
+       
+      }
+      
+      /* .menulist p{
+          font-size: 10px;
+          text-decoration: none;
+          list-style: none; 
+          
+      } */
+      .menulist .boxes{
+         
+        padding-left: 25px;
+       
+    
+       
+    }
+    .menudetail img{
+       width: 650px;
+       height: 250px;
+       border-radius: 15px;
+       border: solid black;
+       height: 350px;
+       padding-top: 20px;
+       margin-left: 100px;
+       margin-top: 30px;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+    .menudetail ul{
+        background:radial-gradient( teal, orangered);
+        margin-top: 0px;
+        padding-left: 20px;
+        margin-bottom: 0px;
+        padding-right: 20px;
+       line-height: 25px;
+       padding-top: 20px;
+    }
+    .head{
+        width: 900px;
+        margin:0 auto;
+        min-height: 100vh;
+        
+    }
+    
+    .head img{
+        padding-top: 0px;
+    }
+    .ingridient{
+        display: flex;
+        
+        justify-content: space-around;
+       
+      
+    }
+    .measurements{
+        display: flex;
+        justify-content: space-around;
+    }
