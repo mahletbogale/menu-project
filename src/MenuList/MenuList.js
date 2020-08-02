@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-
 import { Link } from "react-router-dom";
-
+// Mapping all the data passed from the parent component
+// And displaying on menu list page
 class MenuList extends Component {
   render() {
     return (

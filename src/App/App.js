@@ -1,3 +1,5 @@
+// Importing components ,Link and Route
+
 import React, { Component } from "react";
 import { Route, Link } from "react-router-dom";
 import Home from "../Home/Home";
@@ -11,6 +13,8 @@ class App extends Component {
       recipes: [],
     };
   }
+
+  // Fetching API
   componentDidMount() {
     fetch("https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood")
       .then((res) => res.json())
@@ -18,7 +22,9 @@ class App extends Component {
         this.setState({ recipes: json.meals });
       });
   }
-
+  // Adding Link to different pages
+  // passing data to children components
+  // Adding Route path
   render() {
     return (
       <div className="head">

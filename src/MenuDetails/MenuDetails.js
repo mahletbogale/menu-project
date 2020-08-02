@@ -7,6 +7,9 @@ class MenuDetails extends Component {
       instructions: {},
     };
   }
+
+  // Creating another API call to get recipe instructions data
+  // Displaying details of the clicked or selected recipe menu
   componentDidMount() {
     fetch(
       `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${this.props.match.params.idMeal}`
