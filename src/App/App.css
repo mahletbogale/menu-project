@@ -1,115 +1,110 @@
-
-.head header{
-    background-color: black;
-    height:150px;
-    align-content: center;
-    color: orangered;
-    text-align: center;
-    padding-top: 40px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-size: 40px;
-    
-   
+.head header {
+  background-color: black;
+  height: 150px;
+  align-content: center;
+  color: orangered;
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 40px;
 }
-header a{
-    text-align: center;
-   text-decoration: none;
-    color: orangered;
-    font-weight: bold;
+header a {
+  text-align: center;
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+}
+.head .home {
+  background: radial-gradient(teal, orangered);
+  padding-top: 180px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 640px;
+  margin-bottom: 0px;
 }
 
-    .head .home{
-        /* background-color: black; */
-        background:radial-gradient( teal, orangered);
-        padding-top: 10px;
-       
-      color: black;
-       text-align: center;
-       
-       font-size: 20px;
-    padding-bottom: 300px;
+.menulist img {
+  width: 280px;
+  border: solid 5px white;
+  border-radius: 50%;
+}
 
-    } 
-    .menulist img{
-        width:250px
-     
+.menulist a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
 
-      }
+.menulist .boxbackground {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+  padding-top: 40px;
+  margin-top: 0px;
+  margin: 0 auto;
+  background: radial-gradient(teal, orangered);
+}
+
+.menulist .boxes {
+  padding-left: 95px;
+}
+.menudetail img {
+  width: 450px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 5px white;
+  height: 350px;
+  padding-top: 20px;
+  margin-left: 100px;
+  margin-top: 30px;
   
-     
-      .menulist  .boxbackground{
-          display: grid;
-       
-          grid-template-columns: repeat(2, 1fr);
-         min-height: 100vh;
-         
-          
-          padding-top: 40px;
-          margin-top: 0px;
-          margin: 0 auto;
-    
-          background:radial-gradient( teal, orangered);
+}
 
-       
-      }
-      
-      /* .menulist p{
-          font-size: 10px;
-          text-decoration: none;
-          list-style: none; 
-          
-      } */
-      .menulist .boxes{
-         
-        padding-left: 25px;
-       
-    
-       
-    }
-    .menudetail img{
-       width: 650px;
-       height: 250px;
-       border-radius: 15px;
-       border: solid black;
-       height: 350px;
-       padding-top: 20px;
-       margin-left: 100px;
-       margin-top: 30px;
-    }
+.menudetail ul {
+  background: radial-gradient(teal, orangered);
+  margin-top: 0px;
+  padding-left: 40px;
+  margin-bottom: 0px;
+  padding-right: 40px;
+  line-height: 25px;
+  padding-top: 20px;
+  padding-bottom: 300px;
+}
+.head {
+  width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.head img {
+  padding-top: 0px;
+}
+.ingridient {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 80px;
+}
+.ing {
+  padding-top: 40px;  
+
+}
+.menuname{
+  padding-top: 40px;
+}
+
+
+@media only screen and (max-width: 600px){
 
 
 
 
 
-    .menudetail ul{
-        background:radial-gradient( teal, orangered);
-        margin-top: 0px;
-        padding-left: 20px;
-        margin-bottom: 0px;
-        padding-right: 20px;
-       line-height: 25px;
-       padding-top: 20px;
-    }
-    .head{
-        width: 900px;
-        margin:0 auto;
-        min-height: 100vh;
-        
-    }
-    
-    .head img{
-        padding-top: 0px;
-    }
-    .ingridient{
-        display: flex;
-        
-        justify-content: space-around;
-       
-      
-    }
-    .measurements{
-        display: flex;
-        justify-content: space-around;
-    }
+
+}
+
+
+
