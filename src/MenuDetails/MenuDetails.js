@@ -32,7 +32,7 @@ class MenuDetails extends Component {
 
           <p>{ins.strInstructions}</p>
 
-          <h3 className='ing'>Ingredients</h3>
+          <h3 className="ing">Ingredients</h3>
           <div className="ingridient">
             <p>{`${ins.strIngredient1}${"  "} ${ins.strMeasure1}`}</p>
             <p>{`${ins.strIngredient2}${"  "} ${ins.strMeasure2}`}</p>

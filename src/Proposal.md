@@ -1,50 +1,35 @@
 # Project Proposal
 
-My app is called Mahi's Seafood Recipes.It's a is a seafood menu app. Users can see a list of all seafood menus in mahi's Seafood . click on a specific menu to see the  details 
+My app is called Mahi's Seafood Recipes.It's a is a seafood menu app. Users can see a list of all seafood menus in mahi's Seafood . click on a specific menu to see the details
 of recipes of each menu.
 
-
 ## Wireframes
-
 
 ## Home Page
 
 <img width="533" alt="Screen Shot 2020-08-01 at 11 34 15 PM" src="https://user-images.githubusercontent.com/66438028/89115094-143a6700-d452-11ea-8518-b560f05dc4cd.png">
 
+## Recipe MenuList Page
 
-
-
- ## MenuList Page
 <img width="689" alt="Screen Shot 2020-08-01 at 11 26 58 PM" src="https://user-images.githubusercontent.com/66438028/89115132-6ed3c300-d452-11ea-90e3-0025e726a4d0.png">
 
-
-## Menu Details
+## Recipe Menu Details
 
 <img width="551" alt="Screen Shot 2020-08-01 at 11 32 11 PM" src="https://user-images.githubusercontent.com/66438028/89115109-421fab80-d452-11ea-8bc8-7583dcdd91d1.png">
-
-
-
 
 ## User Stories
 
 ## MVP Goals
 
-
 -As a user, I want to see a listing of all of the menus in mahi's Seafood Recipe .
 
--As a user, I would like to click on an individual menu to view the  recipes of each menu.
+-As a user, I would like to click on an individual menu to view the recipes of each menu.
 
 -As a user,I want to be able to see the menus on my mobile phone.
 
-
-
-
 ## Stretch Goals
 
--As a user,I would like to see video of recipes from the app  .
-
-
-
+-As a user,I would like to see video of recipes from the app .
 
 ## API
 
@@ -160,9 +145,6 @@ idMeal: "52852"
 ]
 }
 
-
-
-
 ## MEAL DETAILS
 
 {
@@ -226,6 +208,3 @@ dateModified: null
 ## Component Hierarchy
 
 <img width="693" alt="Screen Shot 2020-08-01 at 11 27 35 PM" src="https://user-images.githubusercontent.com/66438028/89115152-c4a86b00-d452-11ea-8b8a-46d3d14a3add.png">
-
-
-

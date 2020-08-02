@@ -25,7 +25,7 @@ class App extends Component {
         <header>
           <Link to="/">Home</Link>
 
-          <Link to="/menulist/menulist">Menu List</Link>
+          <Link to="/menulist/menulist">Recipe Menu List</Link>
         </header>
         <main className="appmain">
           <Route path="/" exact render={() => <Home />} />
