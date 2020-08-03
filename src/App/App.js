@@ -29,6 +29,7 @@ class App extends Component {
     return (
       <div className="head">
         <header>
+       
           <Link to="/">Home</Link>
 
           <Link to="/menulist/menulist">Recipe Menu List</Link>
