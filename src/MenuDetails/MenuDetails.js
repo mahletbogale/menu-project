@@ -33,6 +33,11 @@ class MenuDetails extends Component {
           <img src={thisMenu.strMealThumb} alt="" />
           <h3 className="menuname">{thisMenu.strMeal}</h3>
           <p>{ins.strInstructions}</p>
+
+          <h3 className="hyoutube">Youtube link</h3>
+
+          <p className="pyoutube">{ins.strYoutube}</p>
+
           <h3 className="ing">Ingredients</h3>
           <div className="ingridient">
             <p>{`${ins.strIngredient1}${"  "} ${ins.strMeasure1}`}</p>

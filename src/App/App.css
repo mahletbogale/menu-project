@@ -1,10 +1,11 @@
 .head header {
   background-color: black;
-  height: 150px;
+  height: 180px;
   align-content: center;
   color: orangered;
   text-align: center;
   padding-top: 40px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -92,4 +93,15 @@ header a {
 }
 .menuname {
   padding-top: 40px;
+}
+.icon {
+  border: solid 1px;
+  width: 80px;
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  background-color: orangered;
+  color: white;
+  margin-left: 35px;
 }

@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className="head">
         <header>
-       
+          <div className="icon">msr</div>
           <Link to="/">Home</Link>
 
           <Link to="/menulist/menulist">Recipe Menu List</Link>
