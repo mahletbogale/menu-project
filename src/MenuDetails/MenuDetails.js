@@ -21,20 +21,18 @@ class MenuDetails extends Component {
       });
   }
   render() {
-    let ins = this.state.instructions;
-
     let thisMenu = this.props.recipes.find((recipe) => {
       return recipe.idMeal === this.props.match.params.idMeal;
     });
 
+    let ins = this.state.instructions;
+
     return (
       <div className="menudetail">
         <ul>
-          <img src={thisMenu.strMealThumb} alt="" />
-          <h3 className="menuname">{thisMenu.strMeal}</h3>
-
+          <img src={thisMenu.strMealThumb} alt=""  />
+          <h3 className="menuname" >{thisMenu.strMeal}</h3>
           <p>{ins.strInstructions}</p>
-
           <h3 className="ing">Ingredients</h3>
           <div className="ingridient">
             <p>{`${ins.strIngredient1}${"  "} ${ins.strMeasure1}`}</p>
@@ -51,8 +49,9 @@ class MenuDetails extends Component {
             <p>{`${ins.strIngredient12}${" "} ${ins.strMeasure12}`}</p>
             <p>{`${ins.strIngredient13}${" "} ${ins.strMeasure13}`}</p>
             <p>{`${ins.strIngredient14}${" "} ${ins.strMeasure14}`}</p>
-            <p>{`${ins.strIngredient15}${" "} ${ins.strMeasure15}`}</p>
-            <p>{`${ins.strIngredient16}${" "} ${ins.strMeasure16}`}</p>
+           { ins.strIngredient15 && <p>{`${ins.strIngredient15}${" "} ${ins.strMeasure15}`}</p>}
+           {ins.strIngredient16 && <p>{`${ins.strIngredient16}${" "} ${ins.strMeasure16}`}</p>}
+            {ins.strIngredient17 &&<p>{`${ins.strIngredient17}${" "} ${ins.strMeasure17}`}</p>}
           </div>
         </ul>
       </div>

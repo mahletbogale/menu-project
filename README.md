@@ -208,3 +208,8 @@ dateModified: null
 ## Component Hierarchy
 
 <img width="693" alt="Screen Shot 2020-08-01 at 11 27 35 PM" src="https://user-images.githubusercontent.com/66438028/89115152-c4a86b00-d452-11ea-8b8a-46d3d14a3add.png">
+
+
+## Technology Used
+
+ VS code 

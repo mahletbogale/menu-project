@@ -9,7 +9,7 @@ class MenuList extends Component {
         <div className="boxbackground">
           {this.props.recipes.map((recipe) => {
             return (
-              <Link to={`/menudetails/${recipe.idMeal}`}>
+              <Link key={recipe.idMeal} to={`/menudetails/${recipe.idMeal}`}>
                 <div className="boxes">
                   <img src={recipe.strMealThumb} alt={recipe.strMealThumb} />
                   <p>{recipe.strMeal} </p>
