@@ -40,28 +40,31 @@ class MenuDetails extends Component {
 
           <h3 className="ing">Ingredients</h3>
           <div className="ingridient">
-            <p>{`${ins.strIngredient1}${"  "} ${ins.strMeasure1}`}</p>
-            <p>{`${ins.strIngredient2}${"  "} ${ins.strMeasure2}`}</p>
-            <p>{`${ins.strIngredient3}${" "} ${ins.strMeasure3}`}</p>
-            <p>{`${ins.strIngredient4}${" "} ${ins.strMeasure4}`}</p>
-            <p>{`${ins.strIngredient5}${" "} ${ins.strMeasure5}`}</p>
-            <p>{`${ins.strIngredient6}${" "} ${ins.strMeasure6}`}</p>
-            <p>{`${ins.strIngredient7}${" "} ${ins.strMeasure7}`}</p>
-            <p>{`${ins.strIngredient8}${" "} ${ins.strMeasure8}`}</p>
-            <p>{`${ins.strIngredient9}${" "} ${ins.strMeasure9}`}</p>
-            <p>{`${ins.strIngredient10}${" "} ${ins.strMeasure10}`}</p>
-            <p>{`${ins.strIngredient11}${" "} ${ins.strMeasure11}`}</p>
-            <p>{`${ins.strIngredient12}${" "} ${ins.strMeasure12}`}</p>
-            <p>{`${ins.strIngredient13}${" "} ${ins.strMeasure13}`}</p>
-            <p>{`${ins.strIngredient14}${" "} ${ins.strMeasure14}`}</p>
+            <p>{`${ins.strMeasure1}${"  "} ${ins.strIngredient1}`}</p>
+            <p>{`${ins.strMeasure2}${"  "} ${ins.strIngredient2}`}</p>
+            <p>{`${ins.strMeasure3}${" "} ${ins.strIngredient3}`}</p>
+            <p>{`${ins.strMeasure4}${" "} ${ins.strIngredient4}`}</p>
+            <p>{`${ins.strMeasure5}${" "} ${ins.strIngredient5}`}</p>
+            <p>{`${ins.strMeasure6}${" "} ${ins.strIngredient6}`}</p>
+            <p>{`${ins.strMeasure7}${" "} ${ins.strIngredient7}`}</p>
+            <p>{`${ins.strMeasure8}${" "} ${ins.strIngredient8}`}</p>
+            <p>{`${ins.strMeasure9}${" "} ${ins.strIngredient9}`}</p>
+            <p>{`${ins.strMeasure10}${" "} ${ins.strIngredient10}`}</p>
+            <p>{`${ins.strMeasure11}${" "} ${ins.strIngredient11}`}</p>
+            <p>{`${ins.strMeasure12}${" "} ${ins.strIngredient12}`}</p>
+            <p>{`${ins.strMeasure13}${" "} ${ins.strIngredient13}`}</p>
+            <p>{`${ins.strMeasure14}${" "} ${ins.strIngredient14}`}</p>
             {ins.strIngredient15 && (
-              <p>{`${ins.strIngredient15}${" "} ${ins.strMeasure15}`}</p>
+              <p>{`${ins.strMeasure15}${" "} ${ins.strIngredient15}`}</p>
             )}
             {ins.strIngredient16 && (
-              <p>{`${ins.strIngredient16}${" "} ${ins.strMeasure16}`}</p>
+              <p>{`${ins.strMeasure16}${" "} ${ins.strIngredient16}`}</p>
             )}
             {ins.strIngredient17 && (
-              <p>{`${ins.strIngredient17}${" "} ${ins.strMeasure17}`}</p>
+              <p>{`${ins.strMeasure17}${" "} ${ins.strIngredient17}`}</p>
+            )}
+             {ins.strIngredient18 && (
+              <p>{`${ins.strMeasure18}${" "} ${ins.strIngredient18}`}</p>
             )}
           </div>
         </ul>
