@@ -36,7 +36,7 @@ class MenuDetails extends Component {
 
           <h3 className="hyoutube">Youtube link</h3>
 
-          <p className="pyoutube">{ins.strYoutube}</p>
+          <a href="`{ins.strYoutube}`" className="pyoutube">{ins.strYoutube}</a>
 
           <h3 className="ing">Ingredients</h3>
           <div className="ingridient">
