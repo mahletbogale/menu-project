@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 // And displaying on menu list page
 class MenuList extends Component {
   render() {
+    
     return (
       <div className="menulist">
         <div className="boxbackground">
